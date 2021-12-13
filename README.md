@@ -25,7 +25,7 @@ Keep the server running on that tab.
 #### Step4 : 
 Run the curl commands from the API section. 
 
-You can go to ```http://localhost:8000/swagger``` to see all the API section.
+You can go to ```http://127.0.0.1:8000/swagger/``` to see all the API section.
 
 The admin email is : ```r10525116@ntu.edu.tw``` and the password is ```abc34567```
 
