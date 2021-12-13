@@ -39,3 +39,13 @@ You can interact with the API either using curl commands in the terminal or the 
 
 ## JWT Authentication
 Use JWT authentication to enter certain URLs that require permissions.
+
+## HTTP Status
+- **200 OK** : Request Success
+- **201 Created** : Create Success
+- **400 Bad Request** : Invalid Syntax
+- **401 Unauthorized** : Error Account or Password
+- **403 Forbidden** : Non Authentication
+- **404 Not Found** : Server cannot found resource
+
+
