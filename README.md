@@ -1,15 +1,10 @@
 # Django Ecommerce
 
 ## Introduce
-Build a Django Ecommerce backend project.
-
-Write Django REST Framework with RESTful API.
-
-Use JWT authentication to enter certain URLs that require permissions.
-
-Send the login details to your login url with a post request via Postman.
-
-
+- Build a Django Ecommerce backend project.
+- Write Django REST Framework with RESTful API.
+- Use JWT authentication to enter certain URLs that require permissions.
+- Send details on your url with requests via Postman.
 
 ## Installation / How to run the project on your computer
 #### Step1 : 
