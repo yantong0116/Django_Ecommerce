@@ -19,10 +19,9 @@ You should still be in the directory Ecommerce/ which contains the manage.py fil
 
 Start the server : ```python manage.py runserver```
 
-#### Step3 : 
 Keep the server running on that tab.
 
-#### Step4 : 
+#### Step3 : 
 Run the curl commands from the API section. 
 
 Go to http://127.0.0.1:8000/User  to create account.
@@ -31,7 +30,7 @@ Then go to http://127.0.0.1:8000/User/signIn to siginIn system to get the JSON W
 
 You can use JWT token to enter URLs that require authentication.
 
-#### Step5 : 
+#### Step4 : 
 
 You can go to http://127.0.0.1:8000/swagger/ to view all the API URLs.
 
