@@ -25,7 +25,15 @@ Keep the server running on that tab.
 #### Step4 : 
 Run the curl commands from the API section. 
 
-You can go to ```http://127.0.0.1:8000/swagger/``` to see all the API section.
+Go to ˋˋˋhttp://127.0.0.1:8000/User ˋˋˋ to create account.
+
+Then go to ˋˋˋhttp://127.0.0.1:8000/User/signIn ˋˋˋto siginIn system to get the JSON Web Token (JWT) authentication code.
+
+You can use JWT token to enter URLs that require authentication.
+
+#### Step5 : 
+
+You can go to ```http://127.0.0.1:8000/swagger/``` to view all the API URLs.
 
 The admin email is : ```r10525116@ntu.edu.tw``` and the password is ```abc34567```
 
