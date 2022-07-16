@@ -55,23 +55,4 @@ class OrderAdmin(admin.ModelAdmin):
 class OrderProductAdmin(admin.ModelAdmin): 
     list_display = ('id', 'order_id', 'item_member', 'item_product', 'amount')
     list_filter = ('order_id', 'item_member', 'item_product', 'amount')
-
-#class OrderInstanceInline(admin.TabularInline):
-
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
