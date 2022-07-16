@@ -1,4 +1,4 @@
-# Django Ecommerce
+# E-commerce
 
 ## Introduce
 - Develop a Django Ecommerce backend project.
