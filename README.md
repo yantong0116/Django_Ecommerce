@@ -7,17 +7,18 @@
 - Test API with Postman.
 
 ## Tool
-Python(Django)、SQLite、JWT、Swagger、RestFul API、Postman
+- Python(Django)、SQLite、JWT、Swagger、RestFul API、Postman
+- Custom User Form in Django.
 
 ## Installation / How to run the project on your computer
-#### Step1 : 
+### Step1 : 
 cd to the directory which contains the manage.py file.
 
 Start the server : ```python manage.py runserver```
 
 Keep the server running on that tab.
 
-#### Step2 : 
+### Step2 : 
 Run the curl commands from the API section. 
 
 Go to http://127.0.0.1:8000/User  to create account.
@@ -26,7 +27,7 @@ Then go to http://127.0.0.1:8000/User/signIn to siginIn system to get the JSON W
 
 You can use JWT token to enter URLs that require authentication.
 
-#### Step3 : 
+### Step3 : 
 
 You can go to http://127.0.0.1:8000/swagger/ to view all the API URLs.
 
@@ -36,7 +37,7 @@ The admin email is : ```r10525116@ntu.edu.tw``` and the password is ```abc34567`
 ### RESTful API
 You can interact with the API either using curl commands in the terminal or the Django Rest Framework interface.
 
-### CRUD
+### HTTP Request
 #### Order
 - [GET] /Order 
 - [POST] /Order
@@ -58,19 +59,18 @@ You can interact with the API either using curl commands in the terminal or the 
 
 ## Main .py files
 #### Ecommerce/
-- serializers.py
-- views.py
-- models.py
+- settings.py (project environment setting)
+- urls.py (urls)
 
 #### Shop/
-- admin.py
-- apps.py
-- forms.py
-- managers.py
-- models.py
-- serializers.py
-- urls.py
-- views.py
+- admin.py (models displayed on the admin board)
+- apps.py (record the project app)
+- forms.py (custom User form)
+- managers.py (custom user manager)
+- models.py (create database table)
+- serializers.py (setting the fields which have to view on the page, frequently used in views.py)
+- urls.py (urls)
+- views.py (API response, used in urls.py)
 
 #### image/
 Store product images.
