@@ -39,38 +39,52 @@ You can interact with the API either using curl commands in the terminal or the 
 
 ### HTTP Request
 #### Order
-- [GET] /Order 
-- [POST] /Order
-- [GET] /Order/{id}
+
+|Request|URL|
+|---|---|
+|[GET]|/Order|
+|[POST]|/Order|
+|[GET]|/Order/{id}|
 
 #### Product
-- [GET] /Product
-- [POST] /Product
-- [GET] /Product/{id}
-- [PATCH] /Product/{id}
-- [DELETE] /Product/{id}
+
+|Request|URL|
+|---|---|
+|[GET]|/Product|
+|[POST]|/Product|
+|[GET]|/Product/{id}|
+|[PATCH]|/Product/{id}|
+|[DELETE]|/Product/{id}|
 
 #### User
-- [POST] /User/
-- [GET] /User/me
-- [PATCH] /User/me
-- [POST] /User/signIn
-- [PATCH] /User/{id}
+|Request|URL|
+|---|---|
+|[POST]|/User/|
+|[GET]|/User/me|
+|[PATCH]|/User/me|
+|[POST]|/User/signIn|
+|[PATCH]|/User/{id}|
 
 ## Main .py files
 #### Ecommerce/
-- settings.py (project environment setting)
-- urls.py (urls)
+
+|File name|description|
+|---|---|
+|settings.py|project environment setting|
+|urls.py|urls|
 
 #### Shop/
-- admin.py (models displayed on the admin board)
-- apps.py (record the project app)
-- forms.py (custom User form)
-- managers.py (custom user manager)
-- models.py (create database table)
-- serializers.py (setting the fields which have to view on the page, frequently used in views.py)
-- urls.py (urls)
-- views.py (API response, used in urls.py)
+
+|File name|description|
+|---|---|
+|admin.py|models displayed on the admin board|
+|apps.py|record the project app|
+|forms.py|custom User form|
+|managers.py|custom user manager|
+|models.py|create database table|
+|serializers.py|setting the fields which have to view on the page, frequently used in views.py|
+|urls.py|urls|
+|views.py|API response, used in urls.py|
 
 #### image/
 Store product images.
