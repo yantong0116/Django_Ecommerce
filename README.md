@@ -31,7 +31,7 @@ You can use JWT token to enter URLs that require authentication.
 
 You can go to http://127.0.0.1:8000/swagger/ to view all the API URLs.
 
-The admin email is : ```r10525116@ntu.edu.tw``` and the password is ```abc34567```
+The admin email is : ```r10525116@ntu.edu.tw``` and the password is ```abc34***```
 
 ## API
 ### RESTful API
